@@ -1,7 +1,7 @@
 ### ProgressBar Example
 
-Sample progress bar implementation created using (gosuri/uiprogress)[github.com/gosuri/uiprogress] and (kyokomi/emoji)[gopkg.in/kyokomi/emoji.v1].
+Sample progress bar implementation created using <a href="https://github.com/gosuri/uiprogress">gosuri/uiprogress</a> and <a href="https://github.com/kyokomi/emoji">kyokomi/emoji</a>.
 
 ##### ScreenShot
 
-![Progress bar example][http://g.recordit.co/VtI9KGQY0A.gif]
+<img src="http://g.recordit.co/VtI9KGQY0A.gif"/>
