@@ -1,0 +1,7 @@
+package: .
+import:
+- package: github.com/gosuri/uiprogress
+  subpackages:
+  - util/strutil
+- package: gopkg.in/kyokomi/emoji.v1
+  version: ^1.5.0
