@@ -53,7 +53,7 @@ func main() {
 func deploy(name string, wg *sync.WaitGroup) {
 	defer wg.Done()
 
-	p := progress().PrependFunc(func(b *pb.Bar) string {
+	p := basicProgress().PrependFunc(func(b *pb.Bar) string {
 		return strutil.Resize(name+": "+steps[b.Current()-1], 30)
 	}).PrependFunc(func(b *pb.Bar) string {
 		if len(steps) == b.Current() {
@@ -68,7 +68,7 @@ func deploy(name string, wg *sync.WaitGroup) {
 	}
 }
 
-func progress() *pb.Bar {
+func basicProgress() *pb.Bar {
 	c := pb.AddBar(len(steps)).PrependElapsed().AppendCompleted()
 	c.Width = 20
 
