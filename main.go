@@ -19,6 +19,7 @@ var steps = []string{
 	"collecting assets",
 	"restarting services",
 	"publishing deploy",
+	"completed",
 }
 
 var servers = []string{
@@ -47,7 +48,7 @@ func main() {
 	wg.Wait()
 	pb.Stop()
 
-	fmt.Println("Finished deploy")
+	fmt.Println("Deployed")
 }
 
 func deploy(name string, wg *sync.WaitGroup) {
