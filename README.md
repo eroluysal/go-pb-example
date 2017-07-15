@@ -4,4 +4,4 @@ Sample progress bar implementation created using <a href="https://github.com/gos
 
 ##### ScreenShot
 
-<img src="http://g.recordit.co/6DnRTFyNEh.gif"/>
+<img src="http://g.recordit.co/PY2dP9lQ2R.gif"/>
